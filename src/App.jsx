@@ -81,7 +81,7 @@ export const App = () => {
 
         <button
           type="button"
-          className={`button is-warning ${sortType === SORT_FIELD_LENGTH ? '' : 'is-light'}`}
+          className={`button is-warning ${isReversed ? '' : 'is-light'}`}
           onClick={handleReverse}
         >
           Reverse
